@@ -1,0 +1,22 @@
+# Original source material at the project root. The site only loads the optimised
+# copies in assets/. Leading slashes anchor these to the root so assets/aura etc. still deploy.
+/ccg pics
+/ccg_pics_2
+/aura
+/foot
+/iit.jpg
+/iitb.jpg
+
+# Design tooling and review screenshots
+/.agents
+/.claude
+/.impeccable
+/skills-lock.json
+
+# Vercel CLI link data and local tokens
+.vercel
+.env*
+
+# Repo docs and config, not part of the site
+/REQUIREMENTS.md
+/.gitignore
